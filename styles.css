@@ -2,23 +2,140 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    ;
 }
 
-.header {
+.Header {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.Header-logo {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    flex-grow: 1;
+    margin-left: 2rem;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+    font-family: sans-serif;
+    list-style: none;
+    padding-right: 2rem;
+    align-items: center;
+    font-size: 18px;
+}
+
+.link1, .link2 {
+    margin-right: 1rem;
+}
+
+.website-main {
+    font-family: sans-serif;
+    display: flex;
     background-color: #1f2937;
 }
 
+.awesome {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.subtext {
+    font-size: 1.125rem;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.webmain-image {
+    
+}
+
+/* .Header {
+    background-color: #1f2937;
+}
+
+.header-links, .header-contents {
+    display: flex;
+}
+
+.header-links {
+
+}
+
+.header-contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
 .left-links {
+    display: flex;
     font: 24px;
     color: #f9faf8;
+    flex-grow: 1;
+}
+
+.header-logo {
+    margin-left: 2rem;
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-1,.link-2,.link-3 {
+    margin-right: .5rem;
 }
 
 .right-links, .secondary-text {
     font: 18px;
     color: #e5e7eb;
 }
+
+.right-links li {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: .5rem;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+    padding: .5rem .5rem;
+}
+
+.sign-up:hover {
+    background-color: #183d79;
+    transition-duration: 0.2s;
+}
+
 .main-text {
     font: 48px;
     color: #f9faf8;
     weight: 900;
 }
+
+.image-placeholder {
+    background-color: #a0a0a0;
+    height: 2rem;
+    width: auto;
+} */
