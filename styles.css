@@ -4,7 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    ;
+    font-family: sans-serif;;
 }
 
 .Header {
@@ -15,7 +15,6 @@
 
 .Header-logo {
     display: flex;
-    font-family: sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -26,11 +25,11 @@
 
 .right-links {
     display: flex;
-    font-family: sans-serif;
     list-style: none;
-    padding-right: 2rem;
     align-items: center;
     font-size: 18px;
+    padding-right: 2rem;
+    margin-right: 2rem;
 }
 
 .link1, .link2 {
@@ -41,6 +40,14 @@
     font-family: sans-serif;
     display: flex;
     background-color: #1f2937;
+    padding: 2rem 2rem 3rem;
+    /* padding-bottom: 3rem; */
+}
+
+.webmain-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1.5rem;
 }
 
 .awesome {
@@ -56,10 +63,28 @@
 
 button {
     background-color: #3882f6;
+    width: 5rem;
+    height: 2rem;
+    margin-top: .5rem;
+    justify-content: flex-end;
+    border-radius: .5rem;
+    border: none;
+    font-weight: bold;
+    color: #e5e7eb;
 }
 
 .webmain-image {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    padding: 2rem;
+    color: #eeeeee;
+    background-color: #7e7f80;
+    width: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-left: 1.5rem;
 }
 
 /* .Header {
