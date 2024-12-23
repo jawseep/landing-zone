@@ -11,6 +11,7 @@
     display: flex;
     background-color: #1f2937;
     color: #e5e7eb;
+    padding: 0rem 4rem 0rem 4rem;
 }
 
 .Header-logo {
@@ -19,7 +20,6 @@
     font-weight: bold;
     color: #f9faf8;
     flex-grow: 1;
-    margin-left: 2rem;
     align-items: center;
 }
 
@@ -28,8 +28,6 @@
     list-style: none;
     align-items: center;
     font-size: 18px;
-    padding-right: 2rem;
-    margin-right: 2rem;
 }
 
 .link1, .link2 {
@@ -40,8 +38,7 @@
     font-family: sans-serif;
     display: flex;
     background-color: #1f2937;
-    padding: 2rem 2rem 3rem;
-    /* padding-bottom: 3rem; */
+    padding: 4rem 4rem 4rem 4rem;
 }
 
 .webmain-1 {
@@ -77,14 +74,13 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 2rem;
     padding: 2rem;
     color: #eeeeee;
     background-color: #7e7f80;
     width: auto;
     flex-grow: 1;
     flex-shrink: 0;
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
 }
 
 /* .Header {
