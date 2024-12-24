@@ -11,7 +11,7 @@
     display: flex;
     background-color: #1f2937;
     color: #e5e7eb;
-    padding: 0rem 4rem 0rem 4rem;
+    padding: 0rem 6rem 0rem 6rem;
 }
 
 .Header-logo {
@@ -38,13 +38,15 @@
     font-family: sans-serif;
     display: flex;
     background-color: #1f2937;
-    padding: 4rem 4rem 4rem 4rem;
+    padding: 4rem 6rem 4rem 6rem;
+    /* flex-wrap: wrap; */
 }
 
 .webmain-1 {
     display: flex;
     flex-direction: column;
     margin-right: 1.5rem;
+    flex-shrink: 1;
 }
 
 .awesome {
@@ -58,16 +60,22 @@
     color: #e5e7eb;
 }
 
-button {
+.webmain-button {
     background-color: #3882f6;
     width: 5rem;
     height: 2rem;
     margin-top: .5rem;
+    margin-bottom: .5rem;
     justify-content: flex-end;
     border-radius: .5rem;
     border: none;
     font-weight: bold;
     color: #e5e7eb;
+}
+
+.webmain-button:hover {
+    background-color: #183d79;
+    transition-duration: 0.2s;
 }
 
 .webmain-image {
@@ -77,10 +85,117 @@ button {
     padding: 2rem;
     color: #eeeeee;
     background-color: #7e7f80;
+    height: auto;
     width: auto;
     flex-grow: 1;
     flex-shrink: 0;
-    /* margin-left: 1.5rem; */
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 6rem 6rem 6rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 4rem 2rem 4rem;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.box1, .box2, .box3, .box4 {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+.box {
+    align-self: center;
+    justify-self: center;
+    border: .3rem solid #3882f6;
+    border-radius: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.random-info-contents {
+    width: 10rem;
+    height: auto;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+.inspiring-quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 2.25rem;
+    color: #1f2937;
+    font-style: light italic;
+    padding: 2rem 8rem 3rem 8rem;
+    width: auto;
+}
+
+.quote {
+    align-self: center;
+    margin-right: 4rem;
+}
+
+.Thor {
+    /* display: flex; */
+    justify-self: center;
+    align-self: flex-end;
+    margin-right: 4rem;
+}
+
+.sub-footer {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7e5;
+    width: auto;
+    gap: 1rem;
+    padding: 4rem 6rem 4rem 6rem;
+    margin: 4rem 6rem 4rem 6rem;
+}
+
+.subfooter-maincontent {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.subfooter-signup {
+    display: flex;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+.subfooter-button {
+    background-color: #3882f6;
+    height: 2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .5rem 2rem .5rem 2rem;
+    flex-wrap: nowrap;
+    width: 8rem;
+    justify-content: flex-end;
+    border-radius: .5rem;
+    border: 2.5px solid #e5e7eb;
+    font-weight: bold;
+    color: #e5e7eb;
 }
 
 /* .Header {
